@@ -1,0 +1,1019 @@
+
+
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+
+.parentLeft {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    width: 15vw;
+    height:49vh;
+    margin-left: 2vw;    
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div2 { grid-area: 2 / 1 / 3 / 2;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div3 { grid-area: 3 / 1 / 4 / 2;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div4 { grid-area: 4 / 1 / 5 / 2;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div5 { grid-area: 5 / 1 / 6 / 2;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div6 { grid-area: 6 / 1 / 7 / 2;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div7 { grid-area: 7 / 1 / 8 / 2;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div8 { grid-area: 2 / 2 / 3 / 3;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div9 { grid-area: 3 / 2 / 4 / 3;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div10 { grid-area: 4 / 2 / 5 / 3;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div11 { grid-area: 5 / 2 / 6 / 3;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div12 { grid-area: 6 / 2 / 7 / 3;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div13 { grid-area: 7 / 2 / 8 / 3;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div14 { grid-area: 4 / 3 / 5 / 4;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div15 { grid-area: 5 / 3 / 6 / 4;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div16 { grid-area: 6 / 3 / 7 / 4;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+    .div17 { grid-area: 7 / 3 / 8 / 4;
+           background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+    }
+
+
+
+    .parentMid {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        width: 40vw;
+        height:28vh;
+        margin-left: 5vw;
+        margin-top: 21vh;
+        
+        }
+
+
+
+
+        /* grid-area: 1 / 1 / 2 / 2;
+        grid-area: 2 / 1 / 3 / 2;
+        grid-area: 3 / 1 / 4 / 2;
+        grid-area: 4 / 1 / 5 / 2;
+        grid-area: 5 / 1 / 6 / 2;
+        grid-area: 6 / 1 / 7 / 2;
+        grid-area: 7 / 1 / 8 / 2;
+        grid-area: 2 / 2 / 3 / 3;
+        grid-area: 3 / 2 / 4 / 3;
+        grid-area: 4 / 2 / 5 / 3;
+        grid-area: 5 / 2 / 6 / 3;
+        grid-area: 6 / 2 / 7 / 3; */
+
+
+         .divMid1{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 1 / 2 / 2; }    
+         .divMid2{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 2 / 2 / 3; }
+         .divMid3{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 3 / 2 / 4; }
+         .divMid4{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 4 / 2 / 5; }
+         .divMid5{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 5 / 2 / 6; }
+         .divMid6{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 6 / 2 / 7; }
+         .divMid7{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 7 / 2 / 8; }
+         .divMid8{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 8 / 2 / 9; }
+         .divMid9{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 1 / 9 / 2 / 10; }
+         .divMid10{ 
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 1 / 3 / 2; }
+        .divMid11{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 2 / 3 / 3; }
+        .divMid12{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 3 / 3 / 4; }
+        .divMid13{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 4 / 3 / 5; }
+        .divMid14{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 5 / 3 / 6; }
+        .divMid15{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 6 / 3 / 7; }
+        .divMid16{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 7 / 3 / 8; }
+        .divMid17{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 8 / 3 / 9; }
+        .divMid18{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 2 / 9 / 3 / 10; }
+        .divMid19{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 1 / 4 / 2; }
+        .divMid20{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 2 / 4 / 3; }
+        .divMid21{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 3 / 4 / 4; }
+        .divMid22{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 4 / 4 / 5; }
+        .divMid23{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 5 / 4 / 6; }
+        .divMid24{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 6 / 4 / 7; }
+        .divMid25{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 7 / 4 / 8; }
+        .divMid26{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 8 / 4 / 9; }
+        .divMid27{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 3 / 9 / 4 / 10; }
+        .divMid28{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 1 / 5 / 2; }
+        .divMid29{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 2 / 5 / 3; }
+        .divMid30{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 3 / 5 / 4; }
+        .divMid31{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 4 / 5 / 5; }
+        .divMid32{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 5 / 5 / 6; }
+        .divMid33{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 6 / 5 / 7; }
+        .divMid34{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 7 / 5 / 8; }
+        .divMid35{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 8 / 5 / 9; }
+        .divMid36{
+            background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+
+            grid-area: 4 / 9 / 5 / 10;}
+
+
+
+
+
+
+
+
+
+            .parentMidRight {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+                grid-column-gap: 2px;
+                grid-row-gap: 2px;
+                width: 25vw;
+                height:42vh;
+                margin-left: 2px;
+                margin-top: 7vh;
+                
+                }
+
+
+            .divMidRight1
+
+            {
+                grid-area: 1 / 1 / 2 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight2
+
+            {
+                grid-area: 1 / 2 / 2 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight3
+
+            {
+                grid-area: 1 / 3 / 2 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight4
+
+            {
+                grid-area: 1 / 4 / 2 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight5
+
+            {
+                grid-area: 1 / 5 / 2 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight6
+
+            {
+                grid-area: 2 / 1 / 3 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight7
+
+            {
+                grid-area: 2 / 2 / 3 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight8
+
+            {
+                grid-area: 2 / 3 / 3 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight9
+
+            {
+                grid-area: 2 / 4 / 3 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight10
+
+            {
+                grid-area: 2 / 5 / 3 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight11
+
+            {
+                grid-area: 3 / 1 / 4 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight12
+
+            {
+                grid-area: 3 / 2 / 4 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight13
+
+            {
+                grid-area: 3 / 3 / 4 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight14
+
+            {
+                grid-area: 3 / 4 / 4 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight15
+
+            {
+                grid-area: 3 / 5 / 4 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight16
+
+            {
+                grid-area: 4 / 1 / 5 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight17
+
+            {
+                grid-area: 4 / 2 / 5 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight18
+
+            {
+                grid-area: 4 / 3 / 5 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight19
+
+            {
+                grid-area: 4 / 4 / 5 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight20
+
+            {
+                grid-area: 4 / 5 / 5 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight21
+
+            {
+                grid-area: 5 / 1 / 6 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight22
+
+            {
+                grid-area: 5 / 2 / 6 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight23
+
+            {
+                grid-area: 5 / 3 / 6 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight24
+
+            {
+                grid-area: 5 / 4 / 6 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight25
+
+            {
+                grid-area: 5 / 5 / 6 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight26
+
+            {
+                grid-area: 6 / 1 / 7 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight27
+
+            {
+                grid-area: 6 / 2 / 7 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight28
+
+            {
+                grid-area: 6 / 3 / 7 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight29
+
+            {
+                grid-area: 6 / 4 / 7 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+            .divMidRight30
+
+            {
+                grid-area: 6 / 5 / 7 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+            } 
+
+
+            .parentRight {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(7, 1fr);
+                grid-column-gap: 2px;
+                grid-row-gap: 2px;
+                width: 4vw;
+                height:49vh;
+                margin-left: 2px;
+                
+                }
+          
+
+                .divright1 { grid-area: 1 / 1 / 2 / 2; background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px; }
+                .divright2 { grid-area: 2 / 1 / 3 / 2; background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px; }
+                .divright3 { grid-area: 3 / 1 / 4 / 2; background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px; }
+                .divright4 { grid-area: 4 / 1 / 5 / 2; background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px; }
+                .divright5 { grid-area: 5 / 1 / 6 / 2; background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px; }
+                .divright6 { grid-area: 6 / 1 / 7 / 2; background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px; }
+                .divright7 { grid-area: 7 / 1 / 8 / 2; background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px; }
+
+              
+
+            .maindiv2 {
+                display: grid;
+                grid-template-columns: repeat(12,1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-column-gap: 2px;
+                grid-row-gap: 2px;
+                width: 55vw;
+                height:12vh;
+                margin-left: 22vw;
+                margin-top: 4vh;
+                }
+                
+                .Bdiv1 { grid-area: 1 / 1 / 2 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv2 { grid-area: 1 / 2 / 2 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv3 { grid-area: 1 / 3 / 2 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv4 { grid-area: 1 / 4 / 2 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv5 { grid-area: 1 / 5 / 2 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv6 { grid-area: 1 / 6 / 2 / 7;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv7 { grid-area: 1 / 7 / 2 / 8;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv8 { grid-area: 1 / 8 / 2 / 9;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv9 { grid-area: 1 / 9 / 2 / 10;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv10 { grid-area: 1 / 10 / 2 / 11;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv11 { grid-area: 1 / 11 / 2 / 12;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv12 { grid-area: 1 / 12 / 2 / 13;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv13 { grid-area: 2 / 1 / 3 / 2;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv14 { grid-area: 2 / 2 / 3 / 3;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv15 { grid-area: 2 / 3 / 3 / 4;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv16 { grid-area: 2 / 4 / 3 / 5;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv17 { grid-area: 2 / 5 / 3 / 6;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv18 { grid-area: 2 / 6 / 3 / 7;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv19 { grid-area: 2 / 7 / 3 / 8;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv20 { grid-area: 2 / 8 / 3 / 9;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv21 { grid-area: 2 / 9 / 3 / 10;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv22 { grid-area: 2 / 10 / 3 / 11;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv23 { grid-area: 2 / 11 / 3 / 12;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+                .Bdiv24 { grid-area: 2 / 12 / 3 / 13;
+                background-color: rgba(159, 61, 61, 0.8);
+            text-align: center;
+            padding: 2px;
+            font-size: 30px;
+                }
+
+
+
+
+
+                .parentLast {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-column-gap: 2px;
+                    grid-row-gap: 2px;
+                    width: 10vw;
+                    height: 12vh;
+                    margin-top: 4vh;
+                    margin-left: 2px;
+                    }
+                    
+                    .divL1 { grid-area: 1 / 1 / 2 / 2;
+                        background-color: rgba(159, 61, 61, 0.8);
+                        text-align: center;
+                        padding: 2px;
+                        font-size: 30px;
+                    }
+                    .divL2 { grid-area: 1 / 2 / 2 / 3;
+                        background-color: rgba(159, 61, 61, 0.8);
+                        text-align: center;
+                        padding: 2px;
+                        font-size: 30px;  
+                    }
+                    .divL3 { grid-area: 2 / 1 / 3 / 2;
+                        background-color: rgba(159, 61, 61, 0.8);
+                        text-align: center;
+                        padding: 2px;
+                        font-size: 30px;   
+                    }
+                    .divL4 { grid-area: 2 / 2 / 3 / 3;
+                        background-color: rgba(159, 61, 61, 0.8);
+                        text-align: center;
+                        padding: 2px;
+                        font-size: 30px;   
+                    }
+                
+                .botcontainer{
+                        display: flex;
+                        flex-direction: row;
+
+                }
+                .container{
+                    display: flex;
+                    flex-direction: row;
+
+                }
+               
+                
